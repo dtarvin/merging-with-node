@@ -1,0 +1,21 @@
+{
+  "name": "wpe-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Tarvin",
+  "license": "MIT",
+  "bin": {
+    "wpe-merge": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "csv": "^5.5.3",
+    "csv-parser": "^3.0.0",
+    "json2csv": "^5.0.6",
+    "node-fetch": "^3.0.0"
+  }
+}
